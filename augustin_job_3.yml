@@ -2,6 +2,7 @@
 - name: Start the httpd service
   gather_facts: no
   hosts: all
-  service:
-    name: httpd
-    state: present
+  tasks:
+    - service:
+        name: httpd
+        state: present
