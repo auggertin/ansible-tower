@@ -1,5 +1,7 @@
 ---
 - name: Start the httpd service
+  gather_stats: false
+  hosts: all
   service:
     name: httpd
     state: present
