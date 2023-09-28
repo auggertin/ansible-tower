@@ -1,5 +1,6 @@
 ---
 - name: Printing survey variables from AWX tower
+  gather_facts: false
   hosts: all
   tasks:
     - debug:
