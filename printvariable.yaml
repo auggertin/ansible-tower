@@ -8,4 +8,4 @@
     - debug:
         var: var2
     - debug:
-        var: var3
+        var: var3[1]
