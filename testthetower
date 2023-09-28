@@ -1,6 +1,0 @@
----
-- name: Running in AWX Tower
-  hosts: all 
-  tasks: 
-  - debug: 
-     msg:  Hello From  "{{ ansible_hostsname }}"
