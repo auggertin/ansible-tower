@@ -1,0 +1,10 @@
+---
+- name: Printing survey variables from AWX tower
+  hosts: all
+  tasks:
+    - name: Print the var
+      debug:
+        var:
+        - var1
+        - var2
+        - var3
