@@ -2,6 +2,7 @@
 - name: Copy a file to a specific location
   gather_facts: no
   hosts: all
-  copy:
-    content: "<h1>Hello from Augustin's Job workflow template!</h2>"
-    dest: /var/www/html/augustin.html
+  tasks:
+    - copy:
+        content: "<h1>Hello from Augustin's Job workflow template!</h2>"
+        dest: /var/www/html/augustin.html
