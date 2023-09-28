@@ -1,6 +1,6 @@
 ---
 - name: Ping and print
-  gather_stats: false
+  gather_facts: no
   hosts: all
   tasks:
     - name: Ping the URI
