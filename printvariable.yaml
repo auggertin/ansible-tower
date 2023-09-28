@@ -9,5 +9,3 @@
         var: var2
     - debug:
         var: var3[1]
-    - debug:
-        msg: "End of playbook"
