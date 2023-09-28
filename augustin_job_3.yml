@@ -1,6 +1,6 @@
 ---
 - name: Start the httpd service
-  gather_stats: false
+  gather_facts: no
   hosts: all
   service:
     name: httpd
