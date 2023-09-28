@@ -1,5 +1,6 @@
 ---
 - name: Dummy task
+  gather_facts: no
   hosts: all
   tasks:
     - debug:
