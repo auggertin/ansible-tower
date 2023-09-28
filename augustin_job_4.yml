@@ -1,10 +1,14 @@
 ---
-- name: Ping the URI
-  uri:
-    url: http://18.246.60.246/augustin.html
-    return_content: yes
-  register: index_content
-
-- name: Print the ping file content
-  debug:
-    var: index_content.content
+- name: Ping and print
+  gather_stats: false
+  hosts: all
+  tasks:
+    - name: Ping the URI
+      uri:
+        url: http://18.246.60.246/augustin.html
+        return_content: yes
+      register: index_content
+    
+    - name: Print the ping file content
+      debug:
+        var: index_content.content
