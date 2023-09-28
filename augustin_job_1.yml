@@ -1,5 +1,6 @@
 ---
 - name: Install httpd service
+  gather_stats: false
   hosts: all
   tasks:
     - name: Install httpd via yum
