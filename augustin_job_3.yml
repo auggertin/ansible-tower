@@ -5,4 +5,4 @@
   tasks:
     - service:
         name: httpd
-        state: present
+        state: started
