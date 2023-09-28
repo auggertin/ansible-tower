@@ -1,0 +1,6 @@
+---
+- name: Dummy task
+  hosts: all
+  tasks:
+    - debug:
+        msg: "This is a end dummy task"
