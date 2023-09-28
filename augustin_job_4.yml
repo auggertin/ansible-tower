@@ -5,7 +5,7 @@
   tasks:
     - name: Ping the URI
       uri:
-        url: http://18.246.60.246/augustin.html
+        url: http://44.227.107.21/augustin.html
         return_content: yes
       register: index_content
     
