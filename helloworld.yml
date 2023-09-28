@@ -1,5 +1,5 @@
 ---
-- name: Running in AWX Tower
+- name: Running test file in AWX Tower
   hosts: all 
   tasks: 
   - debug: 
