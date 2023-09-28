@@ -4,5 +4,5 @@
   hosts: all
   tasks:
     - copy:
-        content: "<h1>Hello from Augustin's Job workflow template!</h2>"
+        content: "<h1>Hello from Augustin's testing of using Hashicorp vault!</h2>"
         dest: /var/www/html/augustin.html
