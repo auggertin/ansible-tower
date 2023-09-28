@@ -1,0 +1,5 @@
+---
+- name: Copy a file to a specific location
+  copy:
+    content: "<h1>Hello from Augustin's Job workflow template!</h2>"
+    dest: /var/www/html/augustin.html
